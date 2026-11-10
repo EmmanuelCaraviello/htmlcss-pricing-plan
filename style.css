@@ -1,0 +1,83 @@
+.container {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.plans {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.plan {
+    flex-basis: calc((100% - 40px)/3);
+    min-width: 240px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    box-shadow: ;
+}
+
+.plan-featured {
+    background-color: blueviolet;
+    color: white;
+}
+
+.price {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    font-size: 50px;
+}
+
+
+.currency {
+    font-size: 15px;
+}
+
+.period {
+    font-size: 15px;
+}
+
+li {
+    display: flex;
+    gap: 5px;
+}
+
+.btn {
+    background-color: blueviolet;
+    border-radius: 20px;
+    justify-content: center;
+    color: white;
+    padding: 15px;
+    display: flex;
+    text-decoration: none;
+}
+
+.plan-featured .btn {
+    background-color: white;
+    color: blueviolet;
+}
+
+.intro {
+    justify-content: space-between;
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+.billing {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 15px;
+}
+
+.intro-position {
+    flex-basis: 620px;
+}
